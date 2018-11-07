@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)https://support.shotgunsoftware.com/hc/en-us -->
+<html dir="ltr" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <!-- v14840 -->
+
+  <title>Shotgun Support</title>
+
+  <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="3C4jhr4Tqq6fYbmYgveEDcpL8ND6IG5czmT2HQMpT9Xdkh8xH38sflg0z5ZV3mJP89/szE3lhfz3V/20w/triw==">
+  <link rel="canonical" href="https://support.shotgunsoftware.com/hc/en-us">
+<link rel="alternate" hreflang="en" href="https://support.shotgunsoftware.com/hc/en-us">
+<link rel="alternate" hreflang="ja" href="https://support.shotgunsoftware.com/hc/ja">
+<link rel="alternate" hreflang="ko" href="https://support.shotgunsoftware.com/hc/ko">
+<link rel="alternate" hreflang="zh" href="https://support.shotgunsoftware.com/hc/zh-cn">
+
+  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com -->
+  <link rel="stylesheet" media="all" href="./Shotgun Support_files/application-6229f1ebd2f90b23df13e8c12bfd8ab1.css" id="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./Shotgun Support_files/style.css">
+
+  <link rel="shortcut icon" type="image/x-icon" href="https://theme.zdassets.com/theme_assets/7538/b0cb3f20a70e215b2704195b7e61c32c51d79598.png">
+
+  <!--[if lt IE 9]>
+  <script>
+    //Enable HTML5 elements for <IE9
+    'abbr article aside audio bdi canvas data datalist details dialog \
+    figcaption figure footer header hgroup main mark meter nav output \
+    progress section summary template time video'.replace(/\w+/g,function(n){document.createElement(n)});
+  </script>
+<![endif]-->
+
+  <script async="" src="./Shotgun Support_files/analytics.js.下载"></script><script src="./Shotgun Support_files/jquery-b60ddb79ff2563b75442a6bac88b00b5.js.下载"></script>
+  <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-2114792-4', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+  
+  
+
+  <!-- add code here that should appear in the document head -->
+<!-- Latest compiled and minified JavaScript for collapsible headers in articles (accordians)-->
+<!--<script src='https://www.google.com/recaptcha/api.js'></script>-->
+<script src="./Shotgun Support_files/bootstrap.min.js.下载" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="./Shotgun Support_files/font-awesome.min.css">
+<link rel="stylesheet" href="https://cloud.typography.com/6832432/710802/css/fonts.css">
+
+<script src="./Shotgun Support_files/jquery-1.12.4.js.下载"></script>
+<script src="./Shotgun Support_files/jquery-ui.js.下载"></script>
+<script>
+  $( function() {
+    $( "#tabs" ).tabs();
+  } );
+</script>
+<script>
+  $( function() {
+    $( "#accordion" ).accordion({
+      collapsible: true
+    });
+  } );
+</script>
+
+<script type="text/javascript" src="./Shotgun Support_files/a855bdfef85ae3f5bd2738174af25dd063c018cf.js.下载"></script>
+
+<script type="text/javascript">
+		$(document).ready(function() {
+			$('#demoList').sapling();
+
+			$('#expandAll').click(function() {
+				$('#demoList').data('sapling').expand();
+			});
+
+			$('#collapseAll').click(function() {
+				$('#demoList').data('sapling').collapse();
+			});
+		});
+</script>
+
+<script src="./Shotgun Support_files/zendesk.min.js.下载"></script>
+
+<script src="./Shotgun Support_files/3930af5340bbac1635996b5c8d74a9d83f18b12a.js.下载"></script>
+<script src="./Shotgun Support_files/977c22a57cd6d11b08181e8adbd0f1caba59999b.js.下载"></script>
+<script src="./Shotgun Support_files/72c163064deaca523de87374d397b9023920f5a7.js.下载"></script>
+
+<script type="text/javascript">
+
+var customAutocompleteRender = function(document_type, item) {
+  var out = '<a href="' + item['url'] + '" class="st-auto-link">';
+  out += '<p class="st-auto-title">' + item['title'] + '</p>';
+  out += '<p class="st-auto-desc">' + item['type'] + ' : ' + item['body'].substr(0,90) + '...</p>';
+  out += '</a>';
+  return out;
+};
+
+var customFullSearchRender = function(document_type, item) {
+  var out = '<div class="search-item">';
+  out += '<a href="' + item['url'] + '" class="st-full-link">';
+  out += '<p class="st-full-title">' + item['title'] + '</p>';
+  out += '<p class="st-full-desc">' + item['type'] + ' : ' + item['body'].substr(0,250) + '...</p>';
+  out += '</a></div>';
+  return out;
+};
+
+var hashBuilder = function(params) {
+  var urlhash = "#" + params;
+  var ptfound = false;
+  for (var x in $.hashParams()) {
+    if (urlhash != "#") {
+      urlhash += "&";
+    }
+    if (x == "pt") {
+      y = getSearchType();
+      ptfound = true;
+    } else {
+      y = $.hashParams()[x].replace(" ","+");
+    }
+    urlhash += x + "=" + y;
+  }
+  if (ptfound == false) {
+    urlhash += "&pt=" + getSearchType();
+  }
+  return urlhash;
+}
+
+var runSearch = function() {
+  var loc = window.location.href.split("?");
+  var queryparams = "";
+  if (loc.length > 1) {
+    queryparams = loc[1].split("#")[0];
+    var queryval = queryparams.split("&")[0].split("=")[1];
+    $('#st-search-input').val(decodeURIComponent(queryval.replace("+"," ")));
+  }
+  var queryhash = hashBuilder(queryparams);
+  window.history.replaceState(undefined,undefined,loc[0]);
+  window.location.hash = queryhash;
+};
+
+var getSearchType = function() {
+  var pt = "All";
+  var ptEle = $("#results-refinement input[name='rdo-page-type']:checked");
+  if (ptEle != undefined) {
+    if (['Article','Community'].indexOf(ptEle.val()) >= 0) {
+      pt = ptEle.val();
+    }
+  }
+  return pt;
+}
+
+var getSearchFilter = function() {
+	var filter = {};
+  var pt = getSearchType();
+  var locale = userLocale();
+  if (['Community'].indexOf(pt) >= 0) {
+    filter = {'page':{'type':pt}};
+  } else if (['Article'].indexOf(pt) >= 0) {
+    filter = {'page':{'type':pt,'locale':locale}};
+  } else {
+    filter = {'page':{'locale':locale}};
+  }
+  return filter;
+}
+  
+var setSearchParameters = function() {
+  var filter = getSearchFilter();
+  $('#st-search-input').swiftypeSearch({
+    resultContainingElement: '#st-results-container',
+    renderFunction: customFullSearchRender,
+    fetchFields: {'page':['title','url','body','type']},
+    highlightFields: {'page': {'body': {'fallback': true}}},
+    filters: function() {
+      return getSearchFilter();
+    },
+    perPage: 10,
+    engineKey: 'sCJSuFY4HrFJR7F3WfTx'
+  });
+}
+
+$(function() {
+  $('#full-size-search-box').swiftype({
+    renderFunction: customAutocompleteRender,
+    fetchFields: {'page':['title','url','body','type']},
+    highlightFields: {'page': {'body': {'fallback': true}}},
+    resultLimit: 5,
+    engineKey: 'sCJSuFY4HrFJR7F3WfTx'
+  });
+
+  setSearchParameters();
+
+  $('#full-size-search-box').keyup(function(event) {
+    if (event.keyCode == 13) {
+      this.form.submit();
+      return false;
+    }
+  });
+  
+  $('user-nav-search-input').keyup(function(event) {
+    if (event.keyCode == 13) {
+      this.form.submit();
+      return false;
+    }
+  });
+
+  $("input[name='rdo-page-type']:radio").change(function(e) {
+    runSearch();
+  });
+  
+  // Globe Icon - i18n
+  // var usertags = HelpCenter.user.tags;
+  // for (var i in usertags) {
+  //   if (usertags[i] == 'i18ntest') {
+  //     $(".lang-nav").css("display","table-cell");
+  //   }
+  // }
+  
+});
+  
+function createCategoryIndex() {
+  var categoriesUrl = "/api/v2/help_center/categories.json";
+  var categoryIndex = [];
+  var idxName = getCategoryIndexName();
+  $.get(categoriesUrl).then(function(result) {
+    result.categories.forEach(function(category) {
+      categoryIndex.push(category.id);
+    });
+    window.sessionStorage.setItem(idxName, JSON.stringify(categoryIndex));
+  	// Reload the left-nav, since it probably isn't visible yet.
+  	loadSectionMenus();
+  });
+  return categoryIndex;
+}
+
+function getCategoryIndex() {
+  var ls = window.sessionStorage !== undefined;
+  var categoryIndex = [];
+  var idxName = getCategoryIndexName();
+  if (ls !== false && window.sessionStorage.getItem(idxName) !== null && window.sessionStorage.getItem(idxName) !== "{}") {
+    categoryIndex = JSON.parse(window.sessionStorage.getItem(idxName));
+  } else if (window.sessionStorage.getItem(idxName+"Generate") == null) {
+  	window.sessionStorage.setItem(idxName+"Generate","true");
+    categoryIndex = createCategoryIndex();
+  }
+  return categoryIndex;
+}
+
+</script>
+
+  <script type="text/javascript" src="./Shotgun Support_files/script.js.下载"></script>
+<script src="./Shotgun Support_files/answerBot.js.下载"></script></head>
+<body class="community-enabled">
+  
+  
+
+
+  
+
+
+  <header class="header" data-swiftype-index="false">
+  <div class="header-inner clearfix">
+    <div class="logo">
+      <span class="support-title"><a title="Home" href="https://support.shotgunsoftware.com/hc/en-us"><img src="./Shotgun Support_files/92c507d94dd2c2433a2566f931cece86ca2a1cd0.png" alt="Logo">SUPPORT</a></span>
+    </div>
+    <nav class="docs-nav">
+      <div id="nav_link_user_guides">
+        <a href="https://support.shotgunsoftware.com/hc/en-us/articles/219028038">User Guides</a>
+        <ul id="guides-subnav" class="nav-primary-submenu">
+          <li><a href="https://support.shotgunsoftware.com/hc/en-us/categories/202726378">Shotgun</a></li>
+          <li><a href="https://support.shotgunsoftware.com/hc/en-us/articles/115000068574-Integrations-User-Guide">Integrations</a></li>
+          <li><a href="https://support.shotgunsoftware.com/hc/en-us/categories/202726418">RV</a></li>
+        </ul>
+      </div>
+      <div id="nav_link_developers"><a href="https://support.shotgunsoftware.com/hc/en-us/articles/219028018">Developers</a></div>
+      <div id="nav_link_community"><a href="https://support.shotgunsoftware.com/hc/en-us/community/topics">Community</a></div>
+    </nav>
+    <div id="user-nav-search">
+      <div class="search-table">
+        <div id="user-nav-search-icon">
+          <a><i class="fa fa-search"></i></a>
+        </div>
+        <div id="user-nav-search-container">
+          <form action="https://support.shotgunsoftware.com/hc/en-us/search" method="GET">
+          <input name="stq" id="user-nav-search-input" type="text" class="st-default-search-input" placeholder="Find anything (like tutorials, time logs, or task templates)">
+          </form>
+        </div>
+      </div>
+    </div>
+    <nav id="lang-nav" class="lang-nav">
+      <div id="user-nav-lang-icon">
+        <a><i class="fa fa-globe"></i></a>
+        <ul id="guides-subnav" class="nav-primary-submenu">
+          <li><a href="https://support.shotgunsoftware.com/hc/change_language/en-us?return_to=%2Fhc%2Fen-us" dir="ltr" rel="nofollow">English (US)</a></li>
+          
+          <li><a href="https://support.shotgunsoftware.com/hc/change_language/ja?return_to=%2Fhc%2Fja" dir="ltr" rel="nofollow">日本語</a></li>
+          
+          <li><a href="https://support.shotgunsoftware.com/hc/change_language/ko?return_to=%2Fhc%2Fko" dir="ltr" rel="nofollow">한국어</a></li>
+          
+          <li><a href="https://support.shotgunsoftware.com/hc/change_language/zh-cn?return_to=%2Fhc%2Fzh-cn" dir="ltr" rel="nofollow">简体中文</a></li>
+          
+        </ul>
+      </div>
+    </nav>
+    <nav class="user-nav">
+      <div class="user-nav-table"><div id="user" class="user-info dropdown" style="height: 26px; padding: 4px 4px 6px 6px;"><div class="btn dropdown-toggle actions-menu" role="button"><span id="user-name" style="padding-right: 5px;">Actions</span></div></div>
+          
+
+      <div id="user-dropdown" class="dropdown-menu dropdown-menu-end dropdown-menu-caret" aria-expanded="false"><div id="user-menu"><a class="submit-a-request" href="https://support.shotgunsoftware.com/hc/en-us/requests/new" role="menuitem">Submit A Request</a><a class="login" data-auth-action="signin" role="menuitem" href="https://support.shotgunsoftware.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.shotgunsoftware.com%2Fhc%2Fen-us&amp;locale=1">Sign In</a></div></div></div>
+    </nav>
+  </div>
+</header>
+
+<script type="text/javascript">
+  function getNewRequestLink() {
+  	return '<a class="submit-a-request" href="/hc/en-us/requests/new">Submit a request</a>';
+  }
+  function getFollowingLink() {
+  	return '';
+  }
+  function getContributionsLink() {
+  	return '';
+  }
+</script>
+
+<!--
+<script type="text/javascript" src="http://zingtree.com/js/iframeResizer.js"></script>
+<script type="text/javascript">iFrameResize();</script>
+-->
+
+
+  <main role="main"><div class="background-img-box" style="background-image: url(&quot;//p6.zdassets.com/hc/theme_assets/7538/1405/outside-desk-blur.jpg&quot;);">
+  <h1 class="help-center-name">Shotgun Help Center</h1>
+  <form action="https://support.shotgunsoftware.com/hc/en-us/search" method="GET">
+    <input name="stq" id="full-size-search-box" type="text" class="st-default-search-input" autocomplete="off" placeholder="Find anything (like tutorials, time logs, or task templates)">
+  </form>
+</div>
+    <div id="top-menu-background">
+</div>
+
+<div class="knowledge-base clearfix">
+  <div class="docs-content">
+    <section id="home-section-manuals-docs">
+      <div id="home-user-manuals" class="two-cell align-center">
+        <i class="fa fa-book fa-4x"></i>
+        <h2>User Guides</h2>
+        <p>Ready to get your studio moving faster? Our user guides will help you configure a robust production management and review pipeline using Shotgun, Toolkit, and RV.</p>
+        <a href="https://support.shotgunsoftware.com/hc/en-us/articles/219028038" class="nav-button">Learn management &amp; review tools</a>
+      </div>
+      <div id="home-developer-docs" class="two-cell align-center">
+        <i class="fa fa-code fa-4x"></i>
+        <h2>Developer Documentation</h2>
+        <p>Want to develop an app for Shotgun, Toolkit, or RV? Check out our comprehensive framework, and use our tutorials to learn how to build an efficient pipeline.</p>
+        <a href="https://support.shotgunsoftware.com/hc/en-us/articles/219028018" class="nav-button">Learn about building apps</a>
+      </div>
+    </section>
+    <section id="home-section-support">
+      <div id="home-support-text-title" class="section-title">
+        	<h2>Get Support</h2>
+      </div>
+      <div id="home-support-panel" class="three-cell-table">
+        <div id="home-support-1" class="three-cell">
+          <img src="./Shotgun Support_files/4496903f475978786dd1b418a93fc7e68a85f3a8.jpg">
+          <h3 class="cell-title">Submit a Ticket</h3>
+          <p class="cell-description">Need help now?</p>
+          <ul class="cell-link">
+            <li><a href="https://support.shotgunsoftware.com/hc/en-us/requests/new">Submit a New Ticket</a></li>
+          </ul>
+          <p class="cell-description">Our Street team will work with you directly to resolve any issues you're having.</p>
+        </div>
+        <div id="home-support-2" class="three-cell">
+          <img src="./Shotgun Support_files/09a356046615509865d5a7677a12fc6829a59aa0.jpg">
+          <h3 class="cell-title">Feature Requests</h3>
+          <p class="cell-description">We're always looking for feedback on what you'd like to see our engineering teams work on next.</p>
+          <ul class="cell-link">
+            <li><a href="https://support.shotgunsoftware.com/hc/en-us/community/topics/200682338">Shotgun Feature Requests</a></li>
+            <li><a href="https://support.shotgunsoftware.com/hc/en-us/community/topics/200682448">Integrations Feature Requests</a></li>
+            <li><a href="https://support.shotgunsoftware.com/hc/en-us/community/topics/200682468">RV Feature Requests</a></li>
+          </ul>
+        </div>
+        <div id="home-support-3" class="three-cell">
+          <img src="./Shotgun Support_files/188047e269e2f210406eb2aa3c8000d0c7636554.jpg">
+          <h3 class="cell-title">Release Notes</h3>
+          <p class="cell-description">With each software release we look to bring you awesome new features and fixes.</p>
+          <ul class="cell-link">
+            <li><a href="https://support.shotgunsoftware.com/hc/en-us/sections/204245308">Shotgun Release Notes</a></li>
+            <li><a href="https://support.shotgunsoftware.com/hc/en-us/sections/115000020494">Integration Release Notes</a></li>
+            <li><a href="https://support.shotgunsoftware.com/hc/en-us/articles/219042348">RV Release Notes</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+<script type="text/javascript">
+  function getPageId() {
+  	return 0;
+  }
+  function getPageType() {
+		return "home";
+  }
+</script>
+  </main>
+
+  <footer class="footer" data-swiftype-index="false">
+  <div class="footer-inner">
+    <!-- Footer content -->
+    <section>
+      <div class="half-width">
+        <div class="cell-wrapper">
+        <div class="footer-link-panel">
+          <h3>Shotgun</h3>
+          <ul class="footer-links">
+            <li><a href="https://shotgunsoftware.com/features/" target="_new">Features</a></li>
+            <li><a href="https://shotgunsoftware.com/about/" target="_new">About Us</a></li>
+            <li><a href="https://shotgunsoftware.com/client-stories/" target="_new">Clients</a></li>
+            <li><a href="https://shotgunsoftware.com/pricing/" target="_new">Pricing</a></li>
+          </ul>
+        </div>
+        <div class="footer-link-panel">
+          <h3>Connect</h3>
+          <ul class="footer-links">
+            <li><a href="http://blog.shotgunsoftware.com/" target="_new">Blog</a></li>
+            <li><a href="https://support.shotgunsoftware.com/hc/en-us/requests/new" target="_new">Submit A Request</a></li>
+            <li><a href="http://status.shotgunsoftware.com/" target="_new">Service Status</a></li>
+            <li><a href="https://autodesk.taleo.net/careersection/adsk_gen/jobsearch.ftl?lang=en&amp;keyword=shotgun" target="_new">Jobs</a></li>
+          </ul>
+        </div>
+        </div>
+      </div>
+      <div class="half-width">
+        <h3>Follow Us</h3>
+        <p>Connect with the Shotgun Software team on your favorite social media channels. We're always on the lookout for creative new ways clients are using our software. Tell us your story!</p>
+        <ul class="icons">
+          <li><a href="https://github.com/shotgunsoftware" target="_new" alt="GitHub"><i class="fa fa-github fa-2x"></i></a></li>
+          <li><a href="https://twitter.com/shotgunsoftware" target="_new" alt="Twitter"><i class="fa fa-twitter fa-2x"></i></a></li>
+          <li><a href="https://www.facebook.com/ShotgunSoftware/" target="_new" alt="Facebook"><i class="fa fa-facebook fa-2x"></i></a></li>
+          <li><a href="https://www.linkedin.com/company/212099" target="_new" alt="LinkedIn"><i class="fa fa-linkedin fa-2x"></i></a></li>
+          <li><a href="https://plus.google.com/+ShotgunsoftwareSG/posts" target="_new" alt="Google+"><i class="fa fa-google-plus fa-2x"></i></a></li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <ul class="copyright">
+        <li>© Shotgun Software. All rights reserved.</li>
+        <li><a href="https://shotgunsoftware.com/terms/" target="_new">Terms of Use</a></li>
+        <li><a href="https://www.autodesk.com/company/legal-notices-trademarks/privacy-statement" target="_new">Privacy / Cookies</a></li>
+      </ul>
+    </section>
+  </div>
+</footer>
+
+
+
+
+  <!-- / -->
+
+  <script type="text/javascript" src="./Shotgun Support_files/en-us-3d4abef49badc2dd07cfd08d524a66c3.js.下载"></script>
+  <script src="./Shotgun Support_files/host.js.下载" data-brand-id="824406" data-return-to="https://support.shotgunsoftware.com/hc/en-us" data-theme="hc" data-locale="1" data-auth-origin="824406,true,true"></script>
+  
+
+  <script type="text/javascript">
+  /*
+
+    Greetings sourcecode lurker!
+
+    This is for internal Zendesk and legacy usage,
+    we don't support or guarantee any of these values
+    so please don't build stuff on top of them.
+
+  */
+
+  HelpCenter = {};
+  HelpCenter.account = {"subdomain":"shotgunsoftware","environment":"production","name":"Shotgun Support"};
+  HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":null,"role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/default_avatar.png","is_admin":false,"organizations":[],"groups":[]};
+  HelpCenter.internal = {"asset_url":"//static.zdassets.com/hc/assets/","web_widget_asset_composer_url":"https://static.zdassets.com/ekr/snippet.js","current_session":{"locale":"en-us","csrf_token":"PAuje4IRjYYciNjVlAolywNmBQ8wlrL+mua5ucFTqCs9t5/MI30LVtvdrttDI8OJOvIZE4dTWV6j1bIQAYGMdQ==","shared_csrf_token":null},"settings":{"zopim_enabled":true,"spam_filter_enabled":true},"current_record_id":null,"current_record_url":null,"current_record_title":null,"search_results_count":null,"current_text_direction":"ltr","current_brand_url":"https://shotgunsoftware.zendesk.com","current_host_mapping":"support.shotgunsoftware.com","current_path":null,"authentication_domain":"https://shotgunsoftware.zendesk.com","show_autocomplete_breadcrumbs":true,"rollbar_config":{"enabled":true,"endpoint":"https://rollbar-us.zendesk.com/api/1/item/","accessToken":"731a5a953e9a4b7ab6cac9623f50c732","captureUncaught":true,"captureUnhandledRejections":true,"payload":{"environment":"production","client":{"javascript":{"source_map_enabled":true,"code_version":"e7ffdb8addafd41b3ab095e431e790154b807b3a","guess_uncaught_frames":true}}}},"user_info_changing_enabled":false,"has_user_profiles_enabled":false,"has_anonymous_kb_voting":false,"has_professional_upsell":false,"has_multi_language_help_center":true,"mobile_device":false,"mobile_site_enabled":true,"show_at_mentions":false,"has_copied_content":true,"embeddables_config":{"embeddables_web_widget":false,"embeddables_connect_ipms":false},"base_domain":"zendesk.com","answer_bot_subdomain":"static","plans_url":"https://support.shotgunsoftware.com/hc/admin/plan?locale=en-us","manage_content_url":"https://support.shotgunsoftware.com/hc/en-us","arrange_content_url":"https://support.shotgunsoftware.com/hc/admin/arrange_contents?locale=en-us","general_settings_url":"https://support.shotgunsoftware.com/hc/admin/general_settings?locale=en-us","user_segments_url":"https://shotgunsoftware.zendesk.com/knowledge/user_segments?brand_id=824406","import_articles_url":"https://support.shotgunsoftware.com/hc/admin/import_articles?locale=en-us","has_community_enabled":true,"has_groups":true,"has_internal_sections":true,"has_organizations":true,"has_tag_restrictions":true,"has_answer_bot_web_form_enabled":false,"has_close_the_loop_enabled":false,"billing_url":"/access/return_to?return_to=https://shotgunsoftware.zendesk.com/agent/admin/subscription","has_answer_bot":true,"has_block_answer_bot_embeddable":false,"has_guide_docs_importer":true,"has_guide_permission_groups":true,"answer_bot_management_url":"https://support.shotgunsoftware.com/hc/admin/answer_bot?locale=en-us","is_account_owner":false,"has_theming_templates":true,"theming_center_url":"https://support.shotgunsoftware.com/theming","theming_cookie_key":"hc-da39a3ee5e6b4b0d3255bfef95601890afd80709-preview","is_preview":false,"permission_groups_url":"https://shotgunsoftware.zendesk.com/knowledge/permissions?brand_id=824406","has_guide_user_segments_search":false,"has_guide_user_segments_v2":true,"has_alternate_templates":false};
+</script>
+
+  <script src="./Shotgun Support_files/hc_enduser-b0654ed6be81faf88e3ea5247bce1112.js.下载"></script>
+
+  <script type="text/javascript">
+    (function() {
+  var Tracker = {};
+
+  Tracker.track = function(eventName, data) {
+    var url = "https://support.shotgunsoftware.com/hc/tracking/events?locale=en-us";
+
+    var payload = {
+      "event": eventName,
+      "data": data,
+      "referrer": document.referrer
+    };
+
+    var xhr = new XMLHttpRequest();
+
+    xhr.open("POST", url, true);
+    xhr.setRequestHeader("Content-Type", "application/json; charset=UTF-8");
+    xhr.send(JSON.stringify(payload));
+  };
+
+    Tracker.track("front_page_viewed", "BAh7BjoKX21ldGF7CzoPYWNjb3VudF9pZGkCch06E2hlbHBfY2VudGVyX2lkaQJ9BToNYnJhbmRfaWRpA1aUDDoMdXNlcl9pZDA6DnVzZXJfcm9sZUkiDmFub255bW91cwY6BkVUOgtsb2NhbGVJIgplbi11cwY7C1Q=--14ab35ba381c30659f90e6cac94991fd2508c07b");
+})();
+
+  </script>
+
+<div class="swiftype-widget"><div class="autocomplete" style="position: absolute; z-index: 9999; top: 219px; left: 349.5px; width: 648px; display: none;"><ul></ul></div></div><div><iframe data-reactroot="" id="automaticAnswers" class="zEWidget-automaticAnswers" tabindex="-1" style="border: none; background: transparent; transform: translateZ(0px); position: fixed; opacity: 0; bottom: 0px; margin: 0px 6px 6px 0px; z-index: 2147483647; right: 0px; height: 188px; width: 410px; transition-property: none; transition-timing-function: unset; top: -9999px;" src="./Shotgun Support_files/saved_resource.html"></iframe></div></body></html>

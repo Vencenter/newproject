@@ -1,0 +1,57 @@
+ /* ----------------------------------------------------
+    JS currently living at:
+    https://github.com/shotgunsoftware/help-center
+    ------------------------------------------------- */
+
+function loadHiddenCategories() {
+  var locurl = "";
+  if (validateCategoryAccess(202726408) && ($("#nav-guides-studio").length==0)) {
+    //locurl = baseURL() + "/articles/115000424194";
+    locurl = "https://support.shotgunsoftware.com/hc/en-us/articles/115000424194";
+  	$('<li><a id="nav-guides-studio" href="' + locurl + '">' + i18n('studio') + '</a></li>').appendTo('#guides-subnav');
+  }
+  if (validateCategoryAccess(114093970474) && ($("#nav-guides-enterprise").length==0)) {
+    //locurl = baseURL() + "/categories/114093970474";
+    locurl = "https://support.shotgunsoftware.com/hc/en-us/categories/114093970474";
+  	$('<li><a id="nav-guides-enterprise" href="' + locurl + '">' + i18n('enterprise') + '</a></li>').appendTo('#guides-subnav');
+  }
+  if (validateCategoryAccess(360000337333) && ($("#nav-guides-automotive").length==0)) {
+    //locurl = baseURL() + "/articles/360002381414";
+    locurl = "https://support.shotgunsoftware.com/hc/en-us/articles/360002381414";
+  	$('<li><a id="nav-guides-automotive" href="' + locurl + '">' + i18n('automotive') + '</a></li>').appendTo('#guides-subnav');
+  }
+}
+
+/* ----------------------------------
+    Trigger when document's ready
+  ---------------------------------- */
+$(document).ready(function() {
+  
+  // Article Left Nav
+	loadSectionMenus();
+  toggleCategoryTree();
+  
+  // Search
+	setBackgroundImgBox();
+  setSearchPlaceholder();
+  setRequestsPlaceholder();
+  enableSearchBar();
+  
+  // Interactive Elements
+  disableArticleComments();
+  enableSharing();
+  enableCommenting();
+  setOrganizationRequest();
+  enableActionsMenu();
+  
+  // Hard-coded custom stuff...
+  formatToolkitTableOfContents();
+  
+  // Make sure article navs look correct
+  // triggerLeftNavInit();
+  
+  $(".header").mouseover(function() {
+    loadHiddenCategories();
+  });
+  
+});
